@@ -4,6 +4,8 @@
 
 This patch adds a PictureFlow shortcut to the Rockbox main menu.
 
+![](screen.png)
+
 # Requirements
 
 - git
@@ -20,7 +22,7 @@ git clone git://git.rockbox.org/rockbox && cd rockbox
 git clone https://github.com/TheFreo/pictureflow-to-main && cd pictureflow-to-main
 ```
 
-3. apply the patch
+3. Apply the patch
 ```shell
 python patch.py
 ```
