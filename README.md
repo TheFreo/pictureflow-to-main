@@ -26,3 +26,5 @@ python patch.py
 ```
 
 4. Compile the firmware
+
+- *Tested on iPod Video*

@@ -4,7 +4,7 @@ PATCHES = [
     {
         "file": "../apps/root_menu.c",
         "needle": """    pop_current_activity();\n    return GO_TO_ROOT;\n}""",
-        "insert": """static int launch_pictureflow(void)\n{\n    open_plugin_add_path(ID2P(LANG_OPEN_PLUGIN),\n                 VIEWER_DIR "/pictureflow.rock",\n                 NULL);\n\n    return GO_TO_PLUGIN;\n}""",
+        "insert": """static int launch_pictureflow(void *param)\n{\n    (void)param;\n    open_plugin_add_path(ID2P(LANG_OPEN_PLUGIN),\n                 VIEWER_DIR "/pictureflow.rock",\n                 NULL);\n\n    return GO_TO_PLUGIN;\n}""",
     },
     {
         "file": "../apps/root_menu.c",
