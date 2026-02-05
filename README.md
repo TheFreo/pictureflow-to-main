@@ -1,6 +1,6 @@
 # pictureflow-to-main
 
-> This is not a patch for ready-made firmware! You will need to apply the patch and recompile the firmware for your player! How to compile, read ![here](https://www.rockbox.org/wiki/HowToCompile.html)
+> This is not a patch for ready-made firmware! You will need to apply the patch and recompile the firmware for your player! How to compile, read **[here](https://www.rockbox.org/wiki/HowToCompile.html)**
 
 This patch adds a PictureFlow shortcut to the Rockbox main menu.
 
